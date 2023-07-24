@@ -1,6 +1,6 @@
 package com.amsen.par.searchview.prediction.adapter;
 
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.amsen.par.searchview.prediction.OnPredictionClickListener;
 import com.amsen.par.searchview.prediction.Prediction;

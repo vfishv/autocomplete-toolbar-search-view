@@ -3,8 +3,8 @@ package com.amsen.par.searchview.prediction.view;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.LayoutRes;
-import android.support.v4.content.ContextCompat;
+import androidx.annotation.LayoutRes;
+import androidx.core.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.WindowManager;
 import android.widget.PopupWindow;

@@ -2,8 +2,8 @@ package com.amsen.par.searchview.prediction.view;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
