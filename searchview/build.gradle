@@ -1,9 +1,10 @@
 apply plugin: 'com.android.library'
-apply plugin: 'me.tatarka.retrolambda'
+//apply plugin: 'me.tatarka.retrolambda'
 
 def VERSION_NAME = '0.8.1'
 def VERSION_CODE = 1
 
+/*
 ext {
     bintrayRepo = 'com.amsen.par'
     bintrayName = 'searchview'
@@ -27,6 +28,7 @@ ext {
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
     allLicenses = ["Apache-2.0"]
 }
+*/
 
 android {
     compileSdkVersion 34
@@ -61,5 +63,5 @@ dependencies {
     implementation 'me.zhanghai.android.materialprogressbar:library:1.6.1'
 }
 
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
-apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
